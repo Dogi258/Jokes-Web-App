@@ -7,9 +7,9 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 class="text-center">Jokes</h1>
 
-<p>
+<p class="text-center">
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
@@ -47,7 +47,7 @@
                         @Html.DisplayFor(modelItem => item.JokeQuestion)
                     </td>
                     <td>
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Punch-Line</a>
                     </td>
                 </tr>
             }
