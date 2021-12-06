@@ -1,5 +1,6 @@
 # Jokes Web App
 This project is a CRUD web application built with ASP.NET Core. The user can can login or make an account to add a joke to the database. If the user does not wish to login, they can still view the jokes that were published.
+## Demo
 ![App Demo](demo.gif)
 
 ## What I learned
