@@ -164,6 +164,7 @@ namespace JokesWebbApp.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+           
         private bool JokeExists(int id)
         {
             return _context.Joke.Any(e => e.Id == id);
